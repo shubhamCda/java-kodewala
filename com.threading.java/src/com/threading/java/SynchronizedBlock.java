@@ -1,0 +1,76 @@
+package com.threading.java;
+
+class Banking1{
+	public void creditMethod() {
+		System.out.println("Amount is credited....");
+	}
+	
+	public void debitMethod() {
+		System.out.println("Synchronized block -->");
+		synchronized (this) {
+			
+			System.out.println("Amount is debited...."+ Thread.currentThread().getName());
+		}
+	}
+	
+	public void updateBalance() {
+		System.out.println("Balance is updated....");
+	}
+}
+
+class Credit1 extends Thread{
+	Banking1 op;
+	
+	public Credit1(Banking1 op) {
+		super();
+		this.op = op;
+	}
+	
+	public void run() {
+		op.creditMethod();
+	}
+}
+
+class Debit1 extends Thread{
+	Banking1 op;
+	
+	public Debit1(Banking1 op) {
+		// TODO Auto-generated constructor stub
+		super();
+		this.op = op;
+	}
+	
+	public void run() {
+		op.debitMethod();
+	}
+}
+
+class UpdateBalance1 extends Thread{
+	Banking1 op;
+	public UpdateBalance1(Banking1 op) {
+		super();
+		this.op = op;
+		
+	}
+	public void run() {
+		op.updateBalance();
+	}
+}
+public class SynchronizedBlock {
+
+	public static void main(String[] args) {
+		// synchronized block method execution
+		
+		Banking1 bank = new Banking1();
+		
+		Debit1 debit = new Debit1(bank);
+		debit.start();
+		
+		Credit1 credit = new Credit1(bank);
+		credit.start();
+		
+		UpdateBalance1 updateBalance = new UpdateBalance1(bank);
+		updateBalance.start();
+	}
+
+}

@@ -1,0 +1,39 @@
+package com.oops.java;
+
+interface UserActivity{
+	public void  login();
+	void checkStatus();
+	void logout();
+	int value = 10; //constant
+}
+
+class Social implements UserActivity{
+
+	@Override
+	public void login() {
+		// TODO Auto-generated method stub
+		System.out.println("User is logged in...");
+	}
+
+	@Override
+	public void checkStatus() {
+		// TODO Auto-generated method stub
+		System.out.println("You are online!!!");
+	}
+
+	@Override
+	public void logout() {
+		// TODO Auto-generated method stub
+		System.out.println("You logged out. Now status is OFFLINE!");
+	}
+	
+}
+public class SocialMediaLogin {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Social user = new Social();
+		user.login();
+	}
+
+}
