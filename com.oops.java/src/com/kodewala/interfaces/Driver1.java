@@ -5,12 +5,15 @@ interface IBanking {
 
 	void settle();
 
-	// to achieve backward-compatibility
+	// to achieve backward-compatibility: not disturbing existing classes.
 	public default void printPassbook() {
 		System.out.println("Your passbook is printing....");
 	}
 	
 	//in JAVA9 onwards introduced private methods in INTERFACE.
+	
+	//static method: to avoid duplicacy
+	
 
 }
 
