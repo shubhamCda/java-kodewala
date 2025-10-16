@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.ls.LSOutput"/>
+    <fullyQualifiedTypeName name="com.threading.java.ThreadingJava"/>
+    <fullyQualifiedTypeName name="com.threading.java.FirstThread"/>
+    <fullyQualifiedTypeName name="com.threading.java.SecondThread"/>
+    <fullyQualifiedTypeName name="com.threading.java.EvenNumber"/>
+    <fullyQualifiedTypeName name="com.threading.java.OddNumber"/>
+    <fullyQualifiedTypeName name="com.oops.java.CurrentAccount"/>
+    <fullyQualifiedTypeName name="com.oops.java.Account"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.oops.java.AdhaarReg"/>
+    <fullyQualifiedTypeName name="com.threading.java.NewThread"/>
+    <fullyQualifiedTypeName name="sun.net.www.content.text.plain"/>
+    <fullyQualifiedTypeName name="java.lang.UnknownError"/>
+    <fullyQualifiedTypeName name="com.threading.java.Cooking"/>
+    <fullyQualifiedTypeName name="com.threading.java.Serving"/>
+    <fullyQualifiedTypeName name="com.oops.java.IsOnline"/>
+    <fullyQualifiedTypeName name="com.oops.java.Login"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="com.threading.java.UserLogin"/>
+    <fullyQualifiedTypeName name="com.threading.java.EvenThread"/>
+    <fullyQualifiedTypeName name="com.threading.java.OddThread"/>
+    <fullyQualifiedTypeName name="com.threading.java.Task"/>
+    <fullyQualifiedTypeName name="com.oops.java.UserActivity"/>
+    <fullyQualifiedTypeName name="com.oops.java.Social"/>
+    <fullyQualifiedTypeName name="com.threading.java.BankingOP"/>
+    <fullyQualifiedTypeName name="com.threading.java.Credit"/>
+    <fullyQualifiedTypeName name="com.threading.java.Debit"/>
+    <fullyQualifiedTypeName name="com.threading.java.UpdateBalance"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="com.threading.java.Transaction"/>
+    <fullyQualifiedTypeName name="com.threading.java.Account"/>
+    <fullyQualifiedTypeName name="java.lang.Iterable"/>
+    <fullyQualifiedTypeName name="java.util.stream.BaseStream"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.kodewala.interfaces.IBanking"/>
+    <fullyQualifiedTypeName name="com.kodewala.interfaces.SBI"/>
+    <fullyQualifiedTypeName name="com.kodewala.interfaces.HDFC"/>
+</qualifiedTypeNameHistroy>

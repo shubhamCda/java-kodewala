@@ -8,10 +8,16 @@ interface IBank {
 	// 2 fwatures introduced in JAVA 8
 	default void stopPayment() {
 		System.out.println("Your payment is Stopped");
+		connectToServer();
 	}
 
 	public static void sendNotification() {
 		System.out.println("Notification sent!");
+		connectToServer();
+	}
+	
+	private static void connectToServer() {  //java 9 and onwards... for  reusability and cleaner design.
+		System.out.println("connecting to server:");
 	}
 }
 

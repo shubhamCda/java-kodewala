@@ -1,0 +1,32 @@
+package com.threading.java;
+
+
+class UserLogin implements Runnable{
+	public void run() {
+		System.out.println("Welcome, You are Logged in....");
+		isOnline();
+	}
+	
+	private void isOnline() {
+		System.out.println("User is Online.....");
+	}
+}
+public class Driver2 {
+
+	public static void main(String[] args) {
+		// Implementation of runnable class
+		UserLogin usr = new UserLogin();
+		
+		Thread t1 = new Thread(usr);
+		Thread t2 = new Thread(usr);
+		Thread t3 = new Thread(usr);
+		
+		t1.start();
+		t2.start();
+		t3.start();
+		
+	
+		
+	}
+
+}

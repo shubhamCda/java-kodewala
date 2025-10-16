@@ -1,0 +1,59 @@
+package com.kodewala.interfaces;
+
+interface IDine{
+	void reservationBasic();
+	void foodChoice();
+	
+	default void LuxuryReservation() {
+		System.out.println("Your reservation got upgraded to luxury itenary!");
+	}
+	
+	public static void businessClass() {
+		System.out.println("Your reservation will cost you more than the decided price.");
+	}
+}
+
+class Family implements IDine{
+
+	@Override
+	public void reservationBasic() {
+		// TODO Auto-generated method stub
+		System.out.println("You can sit in family DINE section");
+	}
+		
+	}
+
+	@Override
+	public void foodChoice() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+class Corporate implements IDine{
+
+	@Override
+	public void reservationBasic() {
+		// TODO Auto-generated method stub
+	}
+
+	@Override
+	public void foodChoice() {
+		// TODO Auto-generated method stub
+		
+	}
+	public void businessClass() {
+		System.out.println("Will serve you in upgraded itenary.");
+	}
+	
+}
+public class Driver3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Family family = new Family();
+		family.reservationBasic();
+	}
+
+}

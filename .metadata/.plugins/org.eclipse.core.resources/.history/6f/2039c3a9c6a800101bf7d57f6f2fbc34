@@ -1,0 +1,48 @@
+package com.kodewala.interfaces;
+
+interface IBanking{
+	public abstract void pay();
+	void settle();
+	
+	public default void printPassbook() {
+		System.out.println("Your passbook is printing....");
+	}
+	
+}
+
+class SBI implements IBanking{
+	@Override
+	public void pay() {
+		System.out.println("Payment in SBI...");
+	}
+
+	@Override
+	public void settle() {
+		// TODO Auto-generated method stub
+		System.out.println("please settle the loan!!!");
+	}
+}
+class HDFC implements IBanking{
+
+	@Override
+	public void pay() {
+		// TODO Auto-generated method stub
+		System.out.println("please pay your dues.!!!");
+	}
+
+	@Override
+	public void settle() {
+		// TODO Auto-generated method stub
+		System.out.println("Please settle the loan amount...");
+	}
+	
+}
+public class Driver1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SBI sbi = new SBI();
+		sbi.pay();
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.oops.java;
+
+class Login{
+	public void isLoggedIn() {
+		System.out.println("You are logged in...");
+	}
+}
+
+class IsOnline extends Login{
+	public void isLoggedIn() {
+		System.out.println("Is online...");
+	}
+}
+
+public class PolymorphismEx {
+	public static void main(String[] args) {
+		Login l1 = new Login();
+		Login p1 = new IsOnline();
+		l1.isLoggedIn();
+		p1.isLoggedIn();
+	}
+}

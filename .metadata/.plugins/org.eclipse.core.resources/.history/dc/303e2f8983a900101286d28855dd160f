@@ -1,0 +1,40 @@
+package com.threading.java;
+
+import java.util.Iterator;
+import java.util.concurrent.locks.ReentrantLock;
+
+class NumberPrinter {
+	ReentrantLock reentrantLock = new ReentrantLock();
+
+	public void numPrinter() {
+		reentrantLock.lock();
+		for (int i = 0; i < 10; i++) {
+			System.out.println("i: " + i + Thread.currentThread().getName());
+		}
+		reentrantLock.unlock();
+	}
+}
+
+class MsgPrinter extends Thread {
+	NumberPrinter numberPrinter;
+	public MsgPrinter(NumberPrinter numberPrinter) {
+		super();
+		this.numberPrinter = numberPrinter;
+	}
+	public void run() {
+		numberPrinter.numPrinter();
+	}
+
+}
+
+public class ManualThread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		NumberPrinter numberPrinter = new NumberPrinter();
+		MsgPrinter t1 = new MsgPrinter(numberPrinter);
+		t1.start();
+		
+	}
+
+}

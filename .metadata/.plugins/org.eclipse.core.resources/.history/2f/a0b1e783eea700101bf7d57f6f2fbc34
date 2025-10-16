@@ -1,0 +1,54 @@
+package com.threading.java;
+
+class Task {
+	public void oddPrintMethod() {
+		for (int i = 1; i <= 10; i++) {
+			if (i % 2 != 0) {
+				System.out.println("Odd: " + i);
+			}
+		}
+	}
+
+	public void evenPrinterMethod() {
+		for (int i = 1; i <= 10; i++) {
+			if (i % 2 == 0) {
+				System.out.println("Even: " + i);
+			}
+		}
+	}
+}
+
+class EvenThread extends Thread {
+	Task task;
+	public EvenThread(Task task){
+		super();
+		this.task = task;
+	}
+	public void run() {
+		task.evenPrinterMethod();
+	}
+}
+
+class OddThread extends Thread{
+	Task task;
+	public OddThread(Task task){
+		super();
+		this.task = task;
+	}
+	public void run() {
+		task.oddPrintMethod();
+	}
+}
+
+public class OddEvenThread {
+
+	public static void main(String[] args) {
+		EvenThread et = new EvenThread(null);
+		et.start();
+		OddThread ot = new OddThread(null);
+		
+		ot.start();
+				
+	}
+
+}

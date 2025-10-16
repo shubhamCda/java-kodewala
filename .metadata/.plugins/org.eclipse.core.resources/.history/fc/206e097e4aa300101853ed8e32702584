@@ -1,0 +1,24 @@
+package com.oops.java;
+
+class InheritanceEx {
+	public int orders = 2;
+	public String date = "7th Octomber 2025";
+	
+	public String isOnline() {
+		System.out.println("User is online");
+		return 1;
+	}
+}
+
+class Browse extends InheritanceEx{
+	
+}
+
+public class InheritanceExm{
+	public static void main(String[] args) {
+		Browse Shoper = new Browse();
+		
+		System.out.println(Browse.orders);
+		
+	}
+}

@@ -7,10 +7,16 @@ interface IDine {
 
 	default void LuxuryReservation() {
 		System.out.println("Your reservation got upgraded to luxury itenary!");
+		sweetItenary();
 	}
 
 	public static void businessClass() {
 		System.out.println("Your reservation will cost you more than the decided price.");
+		sweetItenary();
+	}
+	
+	private static void sweetItenary() {
+		System.out.println("you'll get sweet after dinner only!");
 	}
 }
 
@@ -28,6 +34,7 @@ class Family implements IDine {
 		// TODO Auto-generated method stub
 
 	}
+	
 
 }
 
@@ -56,6 +63,10 @@ public class Driver3 {
 		// TODO Auto-generated method stub
 		Family family = new Family();
 		family.reservationBasic();
+		
+		Corporate corporate = new Corporate();
+		corporate.businessClass();
+		corporate.LuxuryReservation();
 	}
 
 }

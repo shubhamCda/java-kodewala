@@ -1,0 +1,21 @@
+package com.oops.java;
+
+class AdhaarReg {
+	
+	public void doRegistration(String VoterID, String Address, int mobile) {
+		
+	}
+	
+	public void doRegistration(String RationCard, int mobile) {
+			
+		}
+}
+
+public class MethodOverload {
+
+	public static void main(String[] args) {
+		// for Adhaar Registration
+		
+	}
+
+}
