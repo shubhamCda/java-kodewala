@@ -1,7 +1,0 @@
-package com.threading.java;
-
-public class OddNumber {
-	public void run() {
-		System.out.println("Odd Number: ");
-	}
-}

@@ -9,7 +9,6 @@
     <fullyQualifiedTypeName name="com.threading.java.OddNumber"/>
     <fullyQualifiedTypeName name="com.oops.java.CurrentAccount"/>
     <fullyQualifiedTypeName name="com.oops.java.Account"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.oops.java.AdhaarReg"/>
     <fullyQualifiedTypeName name="com.threading.java.NewThread"/>
@@ -30,13 +29,26 @@
     <fullyQualifiedTypeName name="com.threading.java.Credit"/>
     <fullyQualifiedTypeName name="com.threading.java.Debit"/>
     <fullyQualifiedTypeName name="com.threading.java.UpdateBalance"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="com.threading.java.Transaction"/>
     <fullyQualifiedTypeName name="com.threading.java.Account"/>
     <fullyQualifiedTypeName name="java.lang.Iterable"/>
     <fullyQualifiedTypeName name="java.util.stream.BaseStream"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.kodewala.interfaces.IBanking"/>
     <fullyQualifiedTypeName name="com.kodewala.interfaces.SBI"/>
     <fullyQualifiedTypeName name="com.kodewala.interfaces.HDFC"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.AnnotatedArrayType"/>
+    <fullyQualifiedTypeName name="com.threading.java.ReadAndWrite"/>
+    <fullyQualifiedTypeName name="com.threading.java.ReaderThread"/>
+    <fullyQualifiedTypeName name="com.threading.java.WriterThread"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.kodewala.interfaces.Person.ObjectCloning"/>
+    <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
+    <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
+    <fullyQualifiedTypeName name="jdk.internal.classfile.Superclass"/>
+    <fullyQualifiedTypeName name="com.kodewala.interfaces.Person"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="com.kodewala.interfaces.AddNums"/>
 </qualifiedTypeNameHistroy>
