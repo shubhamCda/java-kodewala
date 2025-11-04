@@ -1,3 +1,7 @@
+class Registration{
+	
+}
+
 class Student
 {
 	static String name;
@@ -5,6 +9,8 @@ class Student
 	static boolean present;
 	static long marks;
 	static float percentage;
+	
+	static Registration register;
 	
 	public static void main(String[] args)
 	{
@@ -14,10 +20,10 @@ class Student
 		System.out.println("Final marks scored: "+marks);
 		System.out.println("Toatal percentage: "+percentage);
 		
-		int age; //local variable will not get default value
+		int age=10; //local variable will not get default value
 		System.out.println("age: "+age); //variable age might not have been initialized
-               
-                                           
+        System.out.println("*******");
+        System.out.println("Register: "+register);    
 		
 	}
 }
