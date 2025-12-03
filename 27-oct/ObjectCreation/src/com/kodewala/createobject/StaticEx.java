@@ -17,7 +17,7 @@ public class StaticEx {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("inside main()");
 		StaticEx staticEx = new StaticEx();
 	}
 
