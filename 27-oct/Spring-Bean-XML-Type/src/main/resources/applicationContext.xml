@@ -11,5 +11,11 @@
     		<property name="lastName" value="bodalkar"/>
     
     </bean>
+    
+    <bean id="info" class="com.kodewala.account.Account">
+    		<property name="firstName" value="Nagpur"/>
+    		<property name="lastName" value="Maha"/>
+    
+    </bean>
 
 </beans>

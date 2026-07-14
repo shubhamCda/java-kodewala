@@ -25,6 +25,9 @@ public class App {
 		
 		System.out.println("text here: "+ account.getFirstName() + " and "+ account.getLastName());
 		
+		account = (Account) context.getBean("info");
+		
+		System.out.println("text here: "+ account.getFirstName() + " and "+ account.getLastName());
 		
 
 	}

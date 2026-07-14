@@ -1,0 +1,16 @@
+CustomerID,FirstName,LastName,Age,Gender,Email,Phone,City,Country,SignupDate
+C001,John,Smith,28,Male,john.smith@email.com,9876543210,New York,USA,2023-01-15
+C002,Emma,,34,Female,emma.johnson@email,9876543211,London,UK,2023-02-10
+C003,Liam,Williams,abc,Male,liam.williams@email.com,9876543212,Sydney,Australia,2023-02-18
+C004,Olivia,Brown,25,Female,olivia.brown@email.com,,Toronto,Canada,2023-03-05
+C005,Noah,Jones,-5,Male,noah.jones@email.com,9876543214,Chicago,USA,2023-03-22
+C006,Ava,Garcia,27,Female,ava.garcia@email.com,98765,Madrid,Spain,2023-04-01
+C007,,Miller,45,Male,william.miller@email.com,9876543216,Berlin,Germany,2023-04-15
+C008,Sophia,Davis,32,Female,,9876543217,Paris,France,2023-05-03
+C009,James,Rodriguez,29,Male,james.rodriguez@email.com,9876543218,,Mexico,2023-05-20
+C010,Isabella,Martinez,36,Female,isabella.martinez@email.com,9876543219,Rome,Italy,20-06-2023
+C011,Benjamin,Hernandez,38,Male,ben.hernandez@email.com,9876543220,Los Angeles,USA,2023-06-12
+C011,Benjamin,Hernandez,38,Male,ben.hernandez@email.com,9876543220,Los Angeles,USA,2023-06-12
+C013,Lucas,Gonzalez,31,Male,lucas.gonzalez@email.com,abcdefghij,Buenos Aires,Argentina,2023-07-19
+C014,Charlotte,Wilson,200,Female,charlotte.wilson@email.com,9876543223,Auckland,New Zealand,2023-08-08
+C015,Henry,Anderson,,Male,henry.anderson@email.com,9876543224,Stockholm,Sweden,

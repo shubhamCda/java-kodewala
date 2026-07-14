@@ -1,0 +1,10 @@
+2026-04-04 13:21:51 ERROR com.org.kodewala.loggings.AppTest - Something went wrong
+2026-04-04 13:21:51 TRACE com.org.kodewala.loggings.AppTest - Trace message
+2026-04-04 13:21:51 DEBUG com.org.kodewala.loggings.AppTest - Debug message
+2026-04-04 13:21:51 INFO  com.org.kodewala.loggings.AppTest - Application Started
+2026-04-04 13:21:51 WARN  com.org.kodewala.loggings.AppTest - Warning message
+2026-04-04 13:22:09 ERROR com.org.kodewala.loggings.AppTest - Something went wrong
+2026-04-04 13:22:26 ERROR com.org.kodewala.loggings.AppTest - Something went wrong
+2026-04-04 13:22:26 DEBUG com.org.kodewala.loggings.AppTest - Debug message
+2026-04-04 13:22:26 INFO  com.org.kodewala.loggings.AppTest - Application Started
+2026-04-04 13:22:26 WARN  com.org.kodewala.loggings.AppTest - Warning message
