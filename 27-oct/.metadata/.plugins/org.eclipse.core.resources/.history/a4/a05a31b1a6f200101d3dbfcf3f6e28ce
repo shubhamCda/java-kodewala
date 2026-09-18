@@ -1,0 +1,25 @@
+package com.kodewala.list.arraylist;
+
+
+class Product
+{
+	String searchString;
+	
+	public Product(String searchString) {
+		// TODO Auto-generated constructor stub
+		this.searchString = searchString;
+	}
+}
+
+public class EqualsAndHashCode {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Product product1 = new Product("apple");
+		System.err.println(product1.hashCode());
+		
+
+	}
+
+}

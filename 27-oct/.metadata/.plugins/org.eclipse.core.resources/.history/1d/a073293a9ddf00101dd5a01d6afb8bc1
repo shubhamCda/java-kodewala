@@ -1,0 +1,25 @@
+package com.kodewala.poly.cont;
+
+class Bill
+{
+	public void generateBill(String name, String gstNo, int amount) {
+		System.out.println("generate bill on Bill class");
+	}
+}
+
+class Invoice extends Bill
+{
+	@Override
+	public void generateBill(String name, String gstNo, int amount) {
+		System.out.println("generate bill in Invoice class.");
+	}
+}
+
+public class Driver {
+
+	public static void main(String[] args) {
+		// overriding method concept
+
+	}
+
+}

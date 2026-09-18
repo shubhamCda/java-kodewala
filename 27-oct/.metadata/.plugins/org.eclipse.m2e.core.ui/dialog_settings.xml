@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\JAVA\Kodewala\27-oct"/>
+			<item value="D:\JAVA\Kodewala\27-oct\TEST-webapp-spring"/>
+			<item value="D:\JAVA\Kodewala\27-oct\Collections"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.org.kodewala"/>
+			<item value="com.org.kodewala.TEST_webapp_spring"/>
+			<item value="com.org.kodewala.TEST_webapp"/>
+			<item value="com.org.kodewala.TEST"/>
+			<item value="com.org.kodewala.loggings"/>
+			<item value="com.org.kodewala.logging"/>
+			<item value="com.org.kodewala.Logging"/>
+			<item value="com.org.kodewala.JDBC_Project"/>
+			<item value="com.org.kodewala.jdbc"/>
+		</list>
+		<list key="groupId">
+			<item value="com.org.kodewala"/>
+		</list>
+		<list key="artifactId">
+			<item value="Spring-Bean-Java-type2"/>
+			<item value="Spring-Bean-Java-Type"/>
+			<item value="Spring-Bean-XML-Type"/>
+			<item value="TEST-webapp-spring"/>
+			<item value="TEST-webapp"/>
+			<item value="TEST"/>
+			<item value="Loggings"/>
+			<item value="Logging"/>
+			<item value="JDBC_Project"/>
+			<item value="jdbc"/>
+			<item value="Calculator"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

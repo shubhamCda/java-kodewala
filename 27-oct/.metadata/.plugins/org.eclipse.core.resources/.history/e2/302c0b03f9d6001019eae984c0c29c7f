@@ -1,0 +1,14 @@
+package com.kodewala.strings;
+
+public class StringExp {
+
+	public static void main(String[] args) {
+		// strings and string method understanding
+		String s1 = "Shubham";
+		String s2 = "Shubham";
+		
+		System.out.println("s1==s2: "+ s1==s2);
+
+	}
+
+}
