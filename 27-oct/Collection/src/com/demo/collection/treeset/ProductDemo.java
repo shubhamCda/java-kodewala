@@ -22,8 +22,18 @@ public class ProductDemo {
         hm.put(3, "Ayaa");
         hm.put(4, "Avi");
 
-        System.out.println(hm);
+//        System.out.println(hm);
 
+        TreeSet<Integer> tsI = new TreeSet<>();
+
+        tsI.add(287);
+        tsI.add(28);
+        tsI.add(7);
+        tsI.add(-2);
+
+        ts.clear();
+        tsI.clear();
+        System.out.println(tsI);
 
     }
 }
